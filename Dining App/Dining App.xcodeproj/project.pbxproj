@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDBCE03B26F83D4F00C9F5EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE03A26F83D4F00C9F5EC /* AppDelegate.swift */; };
+		DDBCE03D26F83D4F00C9F5EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE03C26F83D4F00C9F5EC /* SceneDelegate.swift */; };
+		DDBCE03F26F83D4F00C9F5EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE03E26F83D4F00C9F5EC /* ContentView.swift */; };
+		DDBCE04126F83D5200C9F5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBCE04026F83D5200C9F5EC /* Assets.xcassets */; };
+		DDBCE04426F83D5200C9F5EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBCE04326F83D5200C9F5EC /* Preview Assets.xcassets */; };
+		DDBCE04726F83D5200C9F5EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBCE04526F83D5200C9F5EC /* LaunchScreen.storyboard */; };
+		DDBCE04F26F87BFD00C9F5EC /* DiningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE04E26F87BFD00C9F5EC /* DiningData.swift */; };
+		DDBCE05126F9054800C9F5EC /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE05026F9054800C9F5EC /* WebView.swift */; };
+		DDBCE05326F9654700C9F5EC /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBCE05226F9654700C9F5EC /* RemoteImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDBCE03726F83D4F00C9F5EC /* Dining App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dining App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBCE03A26F83D4F00C9F5EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDBCE03C26F83D4F00C9F5EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDBCE03E26F83D4F00C9F5EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDBCE04026F83D5200C9F5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDBCE04326F83D5200C9F5EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDBCE04626F83D5200C9F5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDBCE04826F83D5200C9F5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBCE04E26F87BFD00C9F5EC /* DiningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningData.swift; sourceTree = "<group>"; };
+		DDBCE05026F9054800C9F5EC /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		DDBCE05226F9654700C9F5EC /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBCE03426F83D4F00C9F5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDBCE02E26F83D4F00C9F5EC = {
+			isa = PBXGroup;
+			children = (
+				DDBCE03926F83D4F00C9F5EC /* Dining App */,
+				DDBCE03826F83D4F00C9F5EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBCE03826F83D4F00C9F5EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBCE03726F83D4F00C9F5EC /* Dining App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBCE03926F83D4F00C9F5EC /* Dining App */ = {
+			isa = PBXGroup;
+			children = (
+				DDBCE03A26F83D4F00C9F5EC /* AppDelegate.swift */,
+				DDBCE03C26F83D4F00C9F5EC /* SceneDelegate.swift */,
+				DDBCE03E26F83D4F00C9F5EC /* ContentView.swift */,
+				DDBCE05026F9054800C9F5EC /* WebView.swift */,
+				DDBCE04E26F87BFD00C9F5EC /* DiningData.swift */,
+				DDBCE05226F9654700C9F5EC /* RemoteImage.swift */,
+				DDBCE04026F83D5200C9F5EC /* Assets.xcassets */,
+				DDBCE04526F83D5200C9F5EC /* LaunchScreen.storyboard */,
+				DDBCE04826F83D5200C9F5EC /* Info.plist */,
+				DDBCE04226F83D5200C9F5EC /* Preview Content */,
+			);
+			path = "Dining App";
+			sourceTree = "<group>";
+		};
+		DDBCE04226F83D5200C9F5EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDBCE04326F83D5200C9F5EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDBCE03626F83D4F00C9F5EC /* Dining App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBCE04B26F83D5200C9F5EC /* Build configuration list for PBXNativeTarget "Dining App" */;
+			buildPhases = (
+				DDBCE03326F83D4F00C9F5EC /* Sources */,
+				DDBCE03426F83D4F00C9F5EC /* Frameworks */,
+				DDBCE03526F83D4F00C9F5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dining App";
+			productName = "Dining App";
+			productReference = DDBCE03726F83D4F00C9F5EC /* Dining App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBCE02F26F83D4F00C9F5EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DDBCE03626F83D4F00C9F5EC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = DDBCE03226F83D4F00C9F5EC /* Build configuration list for PBXProject "Dining App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDBCE02E26F83D4F00C9F5EC;
+			productRefGroup = DDBCE03826F83D4F00C9F5EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBCE03626F83D4F00C9F5EC /* Dining App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDBCE03526F83D4F00C9F5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBCE04726F83D5200C9F5EC /* LaunchScreen.storyboard in Resources */,
+				DDBCE04426F83D5200C9F5EC /* Preview Assets.xcassets in Resources */,
+				DDBCE04126F83D5200C9F5EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBCE03326F83D4F00C9F5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBCE03B26F83D4F00C9F5EC /* AppDelegate.swift in Sources */,
+				DDBCE05126F9054800C9F5EC /* WebView.swift in Sources */,
+				DDBCE03D26F83D4F00C9F5EC /* SceneDelegate.swift in Sources */,
+				DDBCE05326F9654700C9F5EC /* RemoteImage.swift in Sources */,
+				DDBCE04F26F87BFD00C9F5EC /* DiningData.swift in Sources */,
+				DDBCE03F26F83D4F00C9F5EC /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDBCE04526F83D5200C9F5EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBCE04626F83D5200C9F5EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDBCE04926F83D5200C9F5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDBCE04A26F83D5200C9F5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDBCE04C26F83D5200C9F5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dining App/Preview Content\"";
+				DEVELOPMENT_TEAM = RUYRL694FN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dining App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Udit.Dining-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDBCE04D26F83D5200C9F5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dining App/Preview Content\"";
+				DEVELOPMENT_TEAM = RUYRL694FN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dining App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Udit.Dining-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBCE03226F83D4F00C9F5EC /* Build configuration list for PBXProject "Dining App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBCE04926F83D5200C9F5EC /* Debug */,
+				DDBCE04A26F83D5200C9F5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBCE04B26F83D5200C9F5EC /* Build configuration list for PBXNativeTarget "Dining App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBCE04C26F83D5200C9F5EC /* Debug */,
+				DDBCE04D26F83D5200C9F5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDBCE02F26F83D4F00C9F5EC /* Project object */;
+}
