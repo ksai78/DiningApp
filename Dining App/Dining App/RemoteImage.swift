@@ -78,7 +78,6 @@ struct RemoteImage: View {
 }
 
 struct RemoteImage_Previews: PreviewProvider {
-    static let jsonURL = "https://www.themealdb.com//images//media//meals//wvpsxx1468256321.jpg"
     
     static var previews: some View {
         RemoteImage(urlString: jsonURL)
